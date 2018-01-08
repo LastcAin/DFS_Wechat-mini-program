@@ -1,0 +1,31 @@
+<view class="container">
+  <view class="coupontitle">Fill your information, and get the coupon</view>
+  <form bindsubmit="formSubmit" bindreset="formReset">
+    <view class="section">
+      <view>Name:</view>
+      <input name="name" placeholder="Your name"/>
+    </view>
+    <view class="section">
+      <view>Mobile Number:</view>
+      <input name="mobilenumber" placeholder="Your mobile phone"/>
+    </view>
+    <view class="section">
+      <view>E-mail:</view>
+      <input name="email" placeholder="Your E-mail"/>
+    </view>
+    <view class="section" >
+      <!-- <view >Birthdate:</view> -->
+      <picker mode="date" name="birthdate" value="{{birthdate}}" bindchange="birthdateChange">  
+        <view value='{{birthdate}}'>  
+          Birthdate: {{birthdate}}  
+        </view>  
+      </picker>
+    </view>
+    <view>
+      <button class="submit" formType="submit">Submit</button>
+    </view>
+    <view>
+      <button class="reset" formType="reset">Reset</button>
+    </view>
+  </form>
+</view>

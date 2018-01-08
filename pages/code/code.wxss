@@ -1,0 +1,24 @@
+page {    
+  display: block;
+  min-height: 100%;
+  background-color: #f6f6f6;
+  position: relative;
+}
+.container{
+  padding: 1rem 0 1rem 0;
+  line-height: 1.5rem;
+  font-size: 1.3rem;
+}
+.congrat_1{
+  position: absolute;
+  top: 20%;
+}
+.congrat_2{
+  position: absolute;
+  top: 40%;
+}
+.code{
+  position: absolute;
+  font-size: 2rem;
+  top: 55%;
+}

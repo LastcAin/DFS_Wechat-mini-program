@@ -1,0 +1,7 @@
+ <view class="container">
+  <view class="congrat_1">Congratulations! </view>
+  <view class="congrat_2">Here is your coupon code!</view>
+  <view class="code">
+    <text>{{code}}</text>
+  </view> 
+</view> 
